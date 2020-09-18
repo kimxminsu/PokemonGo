@@ -1,0 +1,2 @@
+[0919/013652.916:ERROR:registration_protocol_win.cc(103)] CreateFile: 지정된 파일을 찾을 수 없습니다. (0x2)
+[0919/013724.700:ERROR:registration_protocol_win.cc(103)] CreateFile: 지정된 파일을 찾을 수 없습니다. (0x2)
