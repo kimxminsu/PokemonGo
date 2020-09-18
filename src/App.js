@@ -1,26 +1,30 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import pokeball from './images.jpg';
+function App (){
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+  return(
+    <div style={{
+      display: "flex", 
+      flexDirection: "column", 
+      alignItems: "left",
+      background: "rgba(255,250,240,0.7)",
+      color: "red",
+      margin: "0 auto",
+      padding: "2rem",
+      width: "75%",
+      borderRadius: "0.5rem",
+      }}>
+        <img src = {pokeball}></img>
+         <h1 style={{
+             fontSize: "1rem"
+         }}>업데이트</h1>
+         <label>
+             <input type="checkbox"/>
+             로그인 정보 저장
+         </label>
+         
+  </div>
   );
-}
 
+}
 export default App;
