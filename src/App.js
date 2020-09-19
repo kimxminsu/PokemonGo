@@ -1,5 +1,5 @@
 import React from 'react';
-import Play from './pages';
+import {Play, Ranking} from './pages';
 
 import {
   BrowserRouter as Router,
@@ -14,6 +14,9 @@ export default function App() {
       <Switch>
         <Route path="/play">
           <Play/>
+        </Route>
+        <Route path="/ranking">
+          <Ranking/>
         </Route>
       </Switch>
     </Router>
