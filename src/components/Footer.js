@@ -8,12 +8,13 @@ import footer from '../img/footer.png';
 
 export default function Footer(props) {
     return (
-        <div>
-            <img src={footer} style={{width: "full"}}></img>
+        <>
+            <div>
+                <img src={footer} style={{width: "full"}}></img>
 
-            { props.children}
+                { pr ops.children}
 
-        </div >
-
+            </div >
+        </>
     )
 }
