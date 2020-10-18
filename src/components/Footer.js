@@ -12,7 +12,7 @@ export default function Footer(props) {
             <div>
                 <img src={footer} style={{width: "full"}}></img>
 
-                { pr ops.children}
+                { props.children}
 
             </div >
         </>
